@@ -1,7 +1,54 @@
 * {
-
+  font-family: Calibri;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 body {
-  background-image: image(img/background.png);
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size:3em;
+  color:black;
+  border:1px solid rgba(0, 0, 0, 0.5);
+  text-align:center;
+  border-radius: 20px;
+  margin: 10px;
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+p {
+  text-align: left;
+}
+
+.ombre {
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cont {
+  margin-right: auto; margin-left: auto;
+  margin-top: 10%; margin-bottom: 10%;
+  padding: 2.5% 5% 2.5% 5%;
+  border-radius: 20px;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.6)
+}
+
+img {
+  margin: 3%;
+}
+
+#oui {
+  width: 25%; height: auto;
+  display: inline-block;
+}
+
+#non {
+  width: 55%;
+  display: inline;
 }
